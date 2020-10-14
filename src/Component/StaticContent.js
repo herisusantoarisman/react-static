@@ -9,7 +9,7 @@ export default class StaticContent extends Component {
 
   componentDidMount() {
     // fetch the HTML fragment with a local API request
-    fetch(`http://localhost:8080/template/about`)
+    fetch(`http://localhost:8080/template/${this.props.content}`)
       .then((resp) => {
         // fetch returns a readable stream, so translate it into stringified HTML
         return resp.text();

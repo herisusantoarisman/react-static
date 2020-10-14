@@ -4,7 +4,16 @@ const path = require("path");
 const templateController = new express.Router();
 
 // an array of the static page names I'm going to serve up
-const staticPages = ["about", "blog", "index"];
+const staticPages = [
+  "about",
+  "blog",
+  "index",
+  "blog-details",
+  "contact",
+  "portfolio",
+  "services",
+  "team",
+];
 
 // serve the HTML fragments from server/templates/[name].html
 staticPages.forEach((page) => {
