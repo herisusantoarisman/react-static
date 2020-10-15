@@ -506,6 +506,8 @@ ol {
 .features {
   padding-top: 0;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 .features .section-title {
   margin-bottom: 30px;
@@ -647,7 +649,7 @@ ol {
 }
 .counter__item h2 {
   font-size: 48px;
-  color: #111111;
+  color: black;
   letter-spacing: 2px;
   line-height: 40px;
   margin-bottom: 25px;
@@ -655,7 +657,7 @@ ol {
 }
 .counter__item p {
   margin-bottom: 0;
-  color: #111111;
+  color: black;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
